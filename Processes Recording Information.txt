@@ -1,0 +1,173 @@
+Upon running the 4 processes with the command ./processes 1 & ./processes 2 & ./processes 3 & ./processes 4 & (in a GitBash terminal) this was the resulting output:
+
+prory@DESKTOP-UNF30NN MINGW64 ~/OneDrive/Documents/2024-2025/Operating Systems/Homework Assignments/Intro-To-Operating-Systems (main)
+$ ./processes 1 & ./processes 2 & ./processes 3 & ./processes 4 &
+[1] 1681
+[2] 1682
+1
+PID = 28280 - Value of sum = 1
+[3] 1683
+2
+PID = 30064 - Value of sum = 2
+[4] 1684
+3
+PID = 30748 - Value of sum = 3
+4
+PID = 23452 - Value of sum = 4
+
+prory@DESKTOP-UNF30NN MINGW64 ~/OneDrive/Documents/2024-2025/Operating Systems/Homework Assignments/Intro-To-Operating-Systems (main)
+$ PID = 28280 - Value of sum = 2
+PID = 30064 - Value of sum = 4
+PID = 30748 - Value of sum = 6
+PID = 23452 - Value of sum = 8
+PID = 28280 - Value of sum = 3
+PID = 30064 - Value of sum = 6
+PID = 30748 - Value of sum = 9
+PID = 23452 - Value of sum = 12
+PID = 28280 - Value of sum = 4
+PID = 30064 - Value of sum = 8
+PID = 30748 - Value of sum = 12
+PID = 23452 - Value of sum = 16
+$ PID = 28280 - Value of sum = 5
+PID = 30064 - Value of sum = 10
+PID = 30748 - Value of sum = 15
+PID = 23452 - Value of sum = 20
+PID = 28280 - Value of sum = 6
+PID = 30064 - Value of sum = 12
+PID = 30748 - Value of sum = 18
+PID = 23452 - Value of sum = 24
+PID = 28280 - Value of sum = 7
+PID = 30064 - Value of sum = 14
+PID = 30748 - Value of sum = 21
+PID = 23452 - Value of sum = 28
+PID = 28280 - Value of sum = 8
+PID = 30064 - Value of sum = 16
+PID = 30748 - Value of sum = 24
+PID = 23452 - Value of sum = 32
+PID = 28280 - Value of sum = 9
+PID = 30064 - Value of sum = 18
+PID = 30748 - Value of sum = 27
+PID = 23452 - Value of sum = 36
+PID = 28280 - Value of sum = 10
+PID = 30064 - Value of sum = 20
+PID = 30748 - Value of sum = 30
+PID = 23452 - Value of sum = 40
+PID = 28280 - Value of sum = 11
+PID = 30064 - Value of sum = 22
+PID = 30748 - Value of sum = 33
+PID = 23452 - Value of sum = 44
+PID = 28280 - Value of sum = 12
+PID = 30064 - Value of sum = 24
+PID = 30748 - Value of sum = 36
+PID = 23452 - Value of sum = 48
+PID = 28280 - Value of sum = 13
+PID = 30064 - Value of sum = 26
+PID = 30748 - Value of sum = 39
+PID = 23452 - Value of sum = 52
+PID = 28280 - Value of sum = 14
+PID = 30064 - Value of sum = 28
+PID = 30748 - Value of sum = 42
+PID = 23452 - Value of sum = 56
+PID = 28280 - Value of sum = 15
+PID = 30064 - Value of sum = 30
+PID = 30748 - Value of sum = 45
+PID = 23452 - Value of sum = 60
+PID = 28280 - Value of sum = 16
+PID = 30064 - Value of sum = 32
+PID = 30748 - Value of sum = 48
+PID = 23452 - Value of sum = 64
+PID = 28280 - Value of sum = 17
+PID = 30064 - Value of sum = 34
+PID = 30748 - Value of sum = 51
+PID = 23452 - Value of sum = 68
+PID = 28280 - Value of sum = 18
+PID = 30064 - Value of sum = 36
+PID = 30748 - Value of sum = 54
+PID = 23452 - Value of sum = 72
+PID = 28280 - Value of sum = 19
+PID = 30064 - Value of sum = 38
+PID = 30748 - Value of sum = 57
+PID = 23452 - Value of sum = 76
+PID = 28280 - Value of sum = 20
+PID = 30064 - Value of sum = 40
+PID = 30748 - Value of sum = 60
+PID = 23452 - Value of sum = 80
+PID = 28280 - Value of sum = 21
+PID = 30064 - Value of sum = 42
+PID = 30748 - Value of sum = 63
+PID = 23452 - Value of sum = 84
+PID = 28280 - Value of sum = 22
+PID = 30064 - Value of sum = 44
+PID = 30748 - Value of sum = 66
+PID = 23452 - Value of sum = 88
+PID = 28280 - Value of sum = 23
+PID = 30064 - Value of sum = 46
+PID = 30748 - Value of sum = 69
+PID = 23452 - Value of sum = 92
+PID = 28280 - Value of sum = 24
+PID = 30064 - Value of sum = 48
+PID = 30748 - Value of sum = 72
+PID = 23452 - Value of sum = 96
+PID = 28280 - Value of sum = 25
+PID = 30064 - Value of sum = 50
+PID = 30748 - Value of sum = 75
+PID = 23452 - Value of sum = 100
+PID = 28280 - Value of sum = 26
+PID = 30064 - Value of sum = 52
+PID = 30748 - Value of sum = 78
+PID = 23452 - Value of sum = 104
+PID = 28280 - Value of sum = 27
+PID = 30064 - Value of sum = 54
+PID = 30748 - Value of sum = 81
+PID = 23452 - Value of sum = 108
+PID = 28280 - Value of sum = 28
+PID = 30064 - Value of sum = 56
+PID = 30748 - Value of sum = 84
+PID = 23452 - Value of sum = 112
+PID = 28280 - Value of sum = 29
+PID = 30064 - Value of sum = 58
+PID = 30748 - Value of sum = 87
+PID = 23452 - Value of sum = 116
+PID = 28280 - Value of sum = 30
+PID = 30064 - Value of sum = 60
+PID = 30748 - Value of sum = 90
+PID = 23452 - Value of sum = 120
+PID = 28280 - Value of sum = 31
+PID = 30064 - Value of sum = 62
+PID = 30748 - Value of sum = 93
+PID = 23452 - Value of sum = 124
+PID = 28280 - Value of sum = 32
+PID = 30748 - Value of sum = 96
+PID = 30064 - Value of sum = 64
+PID = 23452 - Value of sum = 128
+PID = 28280 - Value of sum = 33
+PID = 30748 - Value of sum = 99
+PID = 30064 - Value of sum = 66
+PID = 23452 - Value of sum = 132
+PID = 28280 - Value of sum = 34
+PID = 30064 - Value of sum = 68
+PID = 30748 - Value of sum = 102
+PID = 23452 - Value of sum = 136
+PID = 28280 - Value of sum = 35
+PID = 30748 - Value of sum = 105
+PID = 30064 - Value of sum = 70
+PID = 23452 - Value of sum = 140
+PID = 28280 - Value of sum = 36
+PID = 30748 - Value of sum = 108
+PID = 30064 - Value of sum = 72
+PID = 23452 - Value of sum = 144
+PID = 28280 - Value of sum = 37
+PID = 30064 - Value of sum = 74
+PID = 30748 - Value of sum = 111
+PID = 23452 - Value of sum = 148
+PID = 28280 - Value of sum = 38
+PID = 30748 - Value of sum = 114
+PID = 30064 - Value of sum = 76
+
+Then to kill the processes in a seperate PowerShell terminal I ran the command: Stop-Process -Name processes
+The resulting output in the bash terminal: 
+
+[1]   Exit 127                ./processes 1
+[2]   Exit 127                ./processes 2
+[3]-  Exit 127                ./processes 3
+[4]+  Exit 127                ./processes 4
