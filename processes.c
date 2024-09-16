@@ -1,12 +1,3 @@
-/*
-Assignment:
-    1.Create a Process Done
-    2.Run multiple processes ( 3 to 4) at the same time. Done
-    3.Record all the information including PIDs for the processes. Done
-    3.Find a mechanism to kill the process Done
-    4.Check your code in to GIT Done
-*/
-
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
